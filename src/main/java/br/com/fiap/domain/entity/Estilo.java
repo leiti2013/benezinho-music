@@ -2,7 +2,7 @@ package br.com.fiap.domain.entity;
 
 public class Estilo {
 
-    private long id;
+    private Long id;
 
     private String nome;
 
@@ -14,7 +14,7 @@ public class Estilo {
         this.nome = nome;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
