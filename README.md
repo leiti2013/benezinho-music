@@ -26,7 +26,7 @@ SIMULADO - Domain Driven Design aplicada em 24/08/2023.
 
 Estamos expandindo o negócio e a meta para este semestre é desenvolver um aplicativo de músicas online.
 
-Nossa equipe de analistas desenvolveu o Diagrama de Classes abaixo, e a sua missão aqui é implementar código capaz de separar as responsabilidades das classes entre as camadas objetivando melhor legibilidade e manutenibilidade do código do programa.
+Nossa equipe de analistas desenvolveu o Diagrama de Classes abaixo, e a sua missão é implementar código capaz de separar as responsabilidades das classes entre as camadas objetivando melhor legibilidade e manutenibilidade do código do programa.
 
 Na sprint atual, você foi incumbido de fazer:
 
@@ -53,13 +53,13 @@ Caso o github esteja indisponível, você deverá pegar o projeto no diretório 
 Alterar o arquivo contido em  **documentacao/equipe.txt** para incluir os RMs e nomes e turma da dupla que fará esta
 atividade.
 
-**OBS:** Será com base nos nomes contido neste aquivo que eu irei atribuir a nota.
+**OBS:** Será com base nos nomes contidos neste aquivo que eu irei atribuir a nota.
 
 1. **(1 Pontos)** implementar corretamente a classe **ArtistaService**.
 
    Lembre-se que:
 
-    1. Existe a necessidade de ser impedir que o **nome** do artista seja nulo ou vazio. Crie esta regra de negócio.
+    1. Existe a necessidade de se impedir que o **nome** do artista seja nulo ou vazio. Crie esta regra de negócio.
     2. É necessário implementar corretamente a interface Service;
 
 
@@ -67,7 +67,7 @@ atividade.
 
    Lembre-se que:
 
-    1. Existe a necessidade de ser impedir que o **nome** do estilo seja nulo ou vazio. Crie esta regra de negócio.
+    1. Existe a necessidade de se impedir que o **nome** do estilo seja nulo ou vazio. Crie esta regra de negócio.
     2. É necessário implementar corretamente a interface Service;
 
 
@@ -75,7 +75,7 @@ atividade.
 
    Lembre-se que:
 
-    1. Existe a necessidade de ser impedir que o **nome** da musica seja nulo ou vazio. Crie esta regra de negócio.
+    1. Existe a necessidade de se impedir que o **nome** da musica seja nulo ou vazio. Crie esta regra de negócio.
     2. É necessário implementar corretamente a interface Service;
 
 
@@ -134,7 +134,7 @@ Nos próximos dias, a correção da prova será disponibilizada no github do pro
 Para acessar digite no prompt:
 
 ```shell
-git clone https://github.com/Benefrancis/https://github.com/Benefrancis/benezinho-music && cd benezinho-music && git checkout correcao
+git clone https://github.com/Benefrancis/benezinho-music && cd benezinho-music && git checkout correcao
 ```
 
 A avaliação é em dupla.
