@@ -11,10 +11,9 @@ public class Artista {
     public Artista() {
     }
 
-    public Artista(long id, String nome, Set<Musica> musicas) {
+    public Artista(long id, String nome) {
         this.id = id;
         this.nome = nome;
-
     }
 
     public Long getId() {
