@@ -20,7 +20,21 @@ public class EstiloRepository implements Repository<Estilo, Long> {
 
         Estilo otacore = new Estilo(3L, "Otacore");
 
-        estilos.addAll(Arrays.asList(vocaloid, metal, otacore));
+        Estilo pop = new Estilo(4L, "Pop");
+
+        Estilo pagode = new Estilo(5L, "Pagode");
+
+        Estilo rap = new Estilo(6L, "Rap");
+
+        Estilo indie = new Estilo(7L, "Indie");
+
+        Estilo samba = new Estilo(8L, "Samba");
+
+        Estilo funk = new Estilo(9L, "Funk");
+
+        Estilo rock = new Estilo(10L, "Rock");
+
+        estilos.addAll(Arrays.asList(vocaloid, metal, otacore, pop, pagode, rap, indie, samba, funk, rock));
 
     }
     @Override
