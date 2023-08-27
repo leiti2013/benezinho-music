@@ -23,7 +23,13 @@ public class ArtistaRepository implements Repository<Artista, Long> {
 
         Artista manoelGomes = new Artista(4L, "Manoel Gomes");
 
-        artistas.addAll(Arrays.asList(hatsuneMiku, mShadows, enygma, manoelGomes));
+        Artista djonga = new Artista(5L, "Djongs");
+
+        Artista djMeleca = new Artista(6L, "Dj meleca");
+
+        Artista mcRespeito = new Artista(7L, "MC Respeito");
+
+        artistas.addAll(Arrays.asList(hatsuneMiku, mShadows, enygma, manoelGomes, djonga, djMeleca, mcRespeito));
 
     }
 
